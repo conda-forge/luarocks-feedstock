@@ -18,14 +18,16 @@ Windows.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/luarocks-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/luarocks-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/luarocks-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/luarocks-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/luarocks-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/luarocks-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/luarocks-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/luarocks-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/luarocks/badges/version.svg)](https://anaconda.org/conda-forge/luarocks)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/luarocks/badges/downloads.svg)](https://anaconda.org/conda-forge/luarocks)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-luarocks-green.svg)](https://anaconda.org/conda-forge/luarocks) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/luarocks.svg)](https://anaconda.org/conda-forge/luarocks) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/luarocks.svg)](https://anaconda.org/conda-forge/luarocks) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/luarocks.svg)](https://anaconda.org/conda-forge/luarocks) |
 
 Installing luarocks
 ===================
