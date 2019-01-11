@@ -4,15 +4,17 @@
 language: generic
 
 os: osx
-osx_image: xcode6.4
+osx_image: xcode9.4
+
 
 env:
   matrix:
-    - CONFIG=osx_
+    - CONFIG=osx_c_compilerclang
+    - CONFIG=osx_c_compilertoolchain_c
 
   global:
     # The BINSTAR_TOKEN secure variable. This is defined canonically in conda-forge.yml.
-    - secure: "jNc/4rZtkjPAQbXB9mfhiNB5VbE1EWFfFkCBLA0CTq+qLs87tzpFqn17kVB9RUg3IhtLkyohxBkyKnxLKPkcr9Z5lBqOm9ztkXdx1Kr1aBzAY1brkyXfNvT7ZmFrgxlzKcpGgYe58UtkoJ0ZpMYlvnRFnA4dgvplkDNZk/QA/U1rGJqE46V9x96mtQHG/T8ha48rzyxLpWd3LfTmAdWnddY195kWVXVdDw/Fd9pptUNgb8/azslw5Mi4EXHFugJKhx6TcaXR1lO795BikPqEp65KrWbEtXA0JbK0i52cM6sBWWmCzIbJRagQ47Nc37zl/Ma+zljbvw5jmxiunm9eu49StyE+zVAY9VPO0eH3CLdWA9M1JDqpTpsZvcokUuKS5oA9d6+LteShhEJk57Fs/tleksZwYyaLfpLtjlnduwAiPuMXAq6zZxVezoEcBw4oZiwaEKYThWEVr7uhtLVyke71SUpTDqMr7Ey0aSYobhJTgF1pSc0s17nYmHb5Tc2dWKLmctaJAnDvqzr0vRBnUopVAglrZpYvXZTiY106JdZRWWefFbF8H4IxjJUV51V95Qtd2RyULSRaRAOwPErIIgGxPDsSYidQMtUB2mw6Z+3T5Q1Otw0zgeqT1RCduJ/DERNwpmq8Pn/BfLo8UvxzLwyiz0RlQO4EamjQtEcW8h8="
+    - secure: "L4wnYQ//dRfl6aNxwNSSaL2Lg1cksNzF1PBvuqfGb3J3JD8IDq/1sRMWFmwAS64kLFGvJ7/v9WAiCSuNOUcs+X56Ur5YDyyJqega09gVSy65REmNgeeUPx6/mgdr3dIFs3gCxqzn2L0DMKq7ZViAVq0U1HncU5e9DhGCq+aypyAOATEhlyZ2IGbEKea3w5VaFSi3fkJMzUaFhtvPQEakLoWB5MS6sFxYRfD0HK2JlS49MZiYfGmEEnY/bUx7m6Q/jQvCz1qBlgjmWsfkwz+RVZ1mkMBWoB4a7N6GzGQb9u645kAQS7jYm7ZJ+c3XmuXwYB7VkjwCQBYRrVjsHH2iroApcrEMhclYRE+WgIuKdJHg+SMjwVH1XmanFeGuQ0djUgDD5shvmqka2229V1jBFgjZJJRszHwbLeBWKwYS9vI56NHNsS+8GCpLNlA4NqKXaC8vxqOeUijRv/JMCdTsNy8CBz98O8pKY01FGARiEGrcaIvKOicI9YY6b/zrmFqGJa+RclOgMgkbrJoarl18Hk+ldL+pULoeVa1Un2G1ZyP6PtvnFI7v7uGInc3VfGf7b/gaZcOsrbTWRqwziXhGpv515rY9LCWKPNE6bPjKQweTYKUqeKoybMJGKG/MzG0Q3fRu6OH+1+CD1idXHmGgP8+Lk4hRwsSYWAZT9IeqbmM="
 
 
 before_install:
@@ -47,7 +49,7 @@ install:
       echo "Configuring conda."
       source /Users/travis/miniconda3/bin/activate root
 
-      conda install --yes --quiet conda-forge::conda-forge-ci-setup=2
+      conda install -n root -c conda-forge --quiet --yes conda-forge-ci-setup=2
       setup_conda_rc ./ ./recipe ./.ci_support/${CONFIG}.yaml
 
       source run_conda_forge_build_setup

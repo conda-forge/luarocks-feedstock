@@ -1,5 +1,7 @@
 build_number_decrement:
-- '0'
+- '1000'
+c_compiler:
+- toolchain_c
 channel_sources:
 - conda-forge,defaults
 channel_targets:
@@ -8,3 +10,9 @@ docker_image:
 - condaforge/linux-anvil
 lua:
 - '5'
+zip_keys:
+- - c_compiler
+  - channel_sources
+  - channel_targets
+  - docker_image
+  - build_number_decrement
