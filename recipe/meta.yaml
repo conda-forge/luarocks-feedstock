@@ -1,6 +1,6 @@
 {% set name = "luarocks" %}
-{% set version = "3.0.4" %}
-{% set sha256 = "1236a307ca5c556c4fed9fdbd35a7e0e80ccf063024becc8c3bf212f37ff0edf" %}
+{% set version = "3.1.1" %}
+{% set sha256 = "3c26c102f8e69f81e12ea39037c770a00b6244e115a4c832e7a92feffdfad1aa" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1001
+  number: 0
   skip: True  # [win]
   detect_binary_files_with_prefix: true
 
