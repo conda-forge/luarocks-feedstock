@@ -20,10 +20,10 @@ requirements:
   build:
     - {{ compiler('c') }}
   host:
-    - lua
+    - lua =5.1
     - unzip
   run:
-    - lua
+    - lua =5.1
     - unzip
 
 test:
