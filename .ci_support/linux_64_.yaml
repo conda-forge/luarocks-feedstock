@@ -5,8 +5,8 @@ c_compiler_version:
 channel_sources:
 - conda-forge,defaults
 channel_targets:
-- conda-forge lua5.1
+- conda-forge main
 docker_image:
 - condaforge/linux-anvil-comp7
-lua:
-- '5'
+target_platform:
+- linux-64
