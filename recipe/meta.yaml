@@ -1,6 +1,6 @@
 {% set name = "luarocks" %}
-{% set version = "3.1.3" %}
-{% set sha256 = "c573435f495aac159e34eaa0a3847172a2298eb6295fcdc35d565f9f9b990513" %}
+{% set version = "3.7.0" %}
+{% set sha256 = "9255d97fee95cec5b54fc6ac718b11bf5029e45bed7873e053314919cd448551" %}
 
 package:
   name: {{ name|lower }}
@@ -28,7 +28,7 @@ requirements:
 
 test:
   commands:
-    - luarocks --lr-path
+    - luarocks config
 
 about:
   home: https://luarocks.org/
