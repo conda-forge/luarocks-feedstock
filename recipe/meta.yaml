@@ -1,6 +1,6 @@
 {% set name = "luarocks" %}
-{% set version = "3.7.0" %}
-{% set sha256 = "9255d97fee95cec5b54fc6ac718b11bf5029e45bed7873e053314919cd448551" %}
+{% set version = "3.8.0" %}
+{% set sha256 = "56ab9b90f5acbc42eb7a94cf482e6c058a63e8a1effdf572b8b2a6323a06d923" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   number: 0
-  skip: True  # [win]
+  skip: true  # [win]
   detect_binary_files_with_prefix: true
 
 requirements:
@@ -35,13 +35,13 @@ about:
   license: MIT
   license_family: MIT
   license_file: COPYING
-  summary: 'LuaRocks is the package manager for Lua modulesLuaRocks is the package manager for Lua module'
+  summary: LuaRocks is the package manager for Lua modulesLuaRocks is the package manager for Lua module
 
   description: |
-      LuaRocks is the package manager for Lua modules.
-      It allows you to create and install Lua modules as self-contained
-      packages called rocks. You can download and install LuaRocks on Unix and
-      Windows.
+    LuaRocks is the package manager for Lua modules.
+    It allows you to create and install Lua modules as self-contained
+    packages called rocks. You can download and install LuaRocks on Unix and
+    Windows.
   doc_url: https://github.com/luarocks/luarocks/wiki/Documentation
   dev_url: https://github.com/luarocks/luarocks/
 
