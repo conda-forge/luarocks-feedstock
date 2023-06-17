@@ -1,11 +1,11 @@
-About luarocks
-==============
+About luarocks-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/luarocks-feedstock/blob/main/LICENSE.txt)
 
 Home: https://luarocks.org/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/luarocks-feedstock/blob/main/LICENSE.txt)
 
 Summary: LuaRocks is the package manager for Lua modulesLuaRocks is the package manager for Lua module
 
@@ -48,6 +48,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
                 </a>
               </td>
             </tr>
