@@ -20,7 +20,7 @@ requirements:
   build:
     - {{ compiler('c') }}
     - make
-    - automake
+    - libtool
   host:
     - lua
     - unzip
