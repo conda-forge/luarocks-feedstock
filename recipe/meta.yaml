@@ -30,7 +30,7 @@ requirements:
 
 test:
   commands:
-    - luarocks config
+    - luarocks config  # [build_platform == target_platform]
 
 about:
   home: https://luarocks.org/
