@@ -7,7 +7,7 @@ set -x -e
 ./configure --prefix=$PREFIX \
     --sysconfdir=$PREFIX/share/lua/ \
     --with-lua-include=$PREFIX/include \
-    --with-lua-interpreter=$BUILD_PREFIX/bin/lua \
+    --with-lua-bin=$BUILD_PREFIX/bin \
     --rocks-tree=$PREFIX
 
 make bootstrap
