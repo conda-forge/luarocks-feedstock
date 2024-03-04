@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 set -x -e
 
-# Debug: what is installed on the $BUILD_PREFIX with the current configuration?
-ls -Rl $BUILD_PREFIX
-
 # Get an updated config.sub and config.guess
 cp $BUILD_PREFIX/share/gnuconfig/config.* .
 
