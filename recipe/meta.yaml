@@ -21,6 +21,7 @@ requirements:
     - {{ compiler('c') }}
     - make
     - libtool
+    - lua  # [build_platform != target_platform]
   host:
     - lua
     - unzip
