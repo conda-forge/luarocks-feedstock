@@ -20,7 +20,6 @@ requirements:
   build:
     - {{ compiler('c') }}
     - make
-    - libtool
     - lua        # [build_platform != target_platform]
     - gnuconfig  # [unix]
   host:
