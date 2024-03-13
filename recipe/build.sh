@@ -20,7 +20,7 @@ if [[ "$CONDA_BUILD_CROSS_COMPILATION" == "1" ]]; then
     for binfile in $PREFIX/bin/*; do
         if [[ -f "$binfile" && ! "$(file --mime-type --brief -- "$binfile")" =~ ^text$ ]]
         then
-            sed -i '' "s/${BUILD_PREFIX}/${PREFIX}/g" $${binfile}
+            sed -i '' "s,${BUILD_PREFIX},${PREFIX},g" $${binfile}
         fi
     done
 fi
