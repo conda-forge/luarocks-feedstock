@@ -1,6 +1,6 @@
 {% set name = "luarocks" %}
-{% set version = "3.11.0" %}
-{% set sha256 = "25f56b3c7272fb35b869049371d649a1bbe668a56d24df0a66e3712e35dd44a6" %}
+{% set version = "3.9.2" %}
+{% set sha256 = "bca6e4ecc02c203e070acdb5f586045d45c078896f6236eb46aa33ccd9b94edb" %}
 
 package:
   name: {{ name|lower }}
