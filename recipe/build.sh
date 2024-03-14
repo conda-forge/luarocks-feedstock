@@ -13,3 +13,11 @@ cp $BUILD_PREFIX/share/gnuconfig/config.* .
     --rocks-tree=$PREFIX
 
 make bootstrap
+
+# Ensure to remove all traces of the build directory from distributed scripts,
+# if we are cross compiling the package
+if [[ "$CONDA_BUILD_CROSS_COMPILATION" == "1" ]]; then
+    for binfile in $PREFIX/bin/luarocks{,-admin}; do
+        sed -i '' "s,${BUILD_PREFIX},${PREFIX},g" "${binfile}"
+    done
+fi
