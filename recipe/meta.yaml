@@ -1,6 +1,6 @@
 {% set name = "luarocks" %}
-{% set version = "3.11.0" %}
-{% set sha256 = "25f56b3c7272fb35b869049371d649a1bbe668a56d24df0a66e3712e35dd44a6" %}
+{% set version = "3.11.1" %}
+{% set sha256 = "c3fb3d960dffb2b2fe9de7e3cb004dc4d0b34bb3d342578af84f84325c669102" %}
 
 package:
   name: {{ name|lower }}
@@ -12,13 +12,14 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   skip: true  # [win]
   detect_binary_files_with_prefix: true
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - make
     - lua        # [build_platform != target_platform]
     - gnuconfig  # [unix]
