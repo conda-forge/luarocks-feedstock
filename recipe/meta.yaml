@@ -21,13 +21,13 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - make
-    - lua        # [build_platform != target_platform]
+    - {{ lua }}  # [build_platform != target_platform]
     - gnuconfig  # [unix]
   host:
-    - lua
+    - {{ lua }}
     - unzip
   run:
-    - lua
+    - {{ lua }}
     - unzip
 
 test:
