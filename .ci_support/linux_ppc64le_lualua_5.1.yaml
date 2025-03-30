@@ -15,6 +15,6 @@ channel_targets:
 docker_image:
 - quay.io/condaforge/linux-anvil-ppc64le:alma9
 lua:
-- '5.4'
+- lua 5.1
 target_platform:
 - linux-ppc64le
