@@ -1,4 +1,11 @@
 lua:
-  - lua
-  - lua 5.1
-  - luajit-openresty
+  - "*.*.*"
+  - 5.1.*
+  - 5.1.*
+luajit:
+  - False
+  - False
+  - True
+zip_keys:
+  - - lua
+    - luajit
