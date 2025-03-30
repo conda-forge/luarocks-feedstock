@@ -24,16 +24,16 @@ requirements:
     - {{ lua }}  # [build_platform != target_platform]
     - gnuconfig  # [unix]
   host:
-    {%  if lua == "luajit-openresty" %}
-    - lua 5.1.*
-    {% endif %}
     - {{ lua }}
+    {%- if lua.startswith('luajit') %}
+    - lua 5.1.*
+    {% endif -%}
     - unzip
   run:
-    {%  if lua == "luajit-openresty" %}
-    - lua 5.1.*
-    {% endif %}
     - {{ lua }}
+    {%- if lua.startswith('luajit') %}
+    - lua 5.1.*
+    {% endif -%}
     - unzip
 
 test:
