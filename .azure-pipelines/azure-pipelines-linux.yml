@@ -8,28 +8,28 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
-      linux_64_lualua_5.1:
-        CONFIG: linux_64_lualua_5.1
+      linux_64_lua5.1:
+        CONFIG: linux_64_lua5.1
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_lualua__:
-        CONFIG: linux_64_lualua__
+      linux_64_lua_:
+        CONFIG: linux_64_lua_
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_lualua_5.1:
-        CONFIG: linux_aarch64_lualua_5.1
+      linux_aarch64_lua5.1:
+        CONFIG: linux_aarch64_lua5.1
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
-      linux_aarch64_lualua__:
-        CONFIG: linux_aarch64_lualua__
+      linux_aarch64_lua_:
+        CONFIG: linux_aarch64_lua_
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
-      linux_ppc64le_lualua_5.1:
-        CONFIG: linux_ppc64le_lualua_5.1
+      linux_ppc64le_lua5.1:
+        CONFIG: linux_ppc64le_lua5.1
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
-      linux_ppc64le_lualua__:
-        CONFIG: linux_ppc64le_lualua__
+      linux_ppc64le_lua_:
+        CONFIG: linux_ppc64le_lua_
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
   timeoutInMinutes: 360
