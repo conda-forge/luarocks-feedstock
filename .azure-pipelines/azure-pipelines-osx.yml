@@ -5,14 +5,26 @@
 jobs:
 - job: osx
   pool:
-    vmImage: macOS-12
+    vmImage: macOS-13
   strategy:
     matrix:
-      osx_64_:
-        CONFIG: osx_64_
+      osx_64_lualua_5.1:
+        CONFIG: osx_64_lualua_5.1
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_:
-        CONFIG: osx_arm64_
+      osx_64_lualua_5.4:
+        CONFIG: osx_64_lualua_5.4
+        UPLOAD_PACKAGES: 'True'
+      osx_64_lualuajit-openresty:
+        CONFIG: osx_64_lualuajit-openresty
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_lualua_5.1:
+        CONFIG: osx_arm64_lualua_5.1
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_lualua_5.4:
+        CONFIG: osx_arm64_lualua_5.4
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_lualuajit-openresty:
+        CONFIG: osx_arm64_lualuajit-openresty
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables: {}

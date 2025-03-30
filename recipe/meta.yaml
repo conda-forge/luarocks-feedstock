@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   detect_binary_files_with_prefix: true
 
@@ -21,13 +21,19 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - make
-    - lua        # [build_platform != target_platform]
+    - {{ lua }}  # [build_platform != target_platform]
     - gnuconfig  # [unix]
   host:
-    - lua
+    - {{ lua }}
+    {% if lua.startswith('luajit') %}
+    - lua 5.1.*
+    {% endif %}
     - unzip
   run:
-    - lua
+    - {{ lua }}
+    {% if lua.startswith('luajit') %}
+    - lua 5.1.*
+    {% endif %}
     - unzip
 
 test:
