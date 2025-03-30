@@ -25,15 +25,15 @@ requirements:
     - gnuconfig  # [unix]
   host:
     - {{ lua }}
-    {%- if lua.startswith('luajit') %}
+    {% if lua.startswith('luajit') %}
     - lua 5.1.*
-    {% endif -%}
+    {% endif %}
     - unzip
   run:
     - {{ lua }}
-    {%- if lua.startswith('luajit') %}
+    {% if lua.startswith('luajit') %}
     - lua 5.1.*
-    {% endif -%}
+    {% endif %}
     - unzip
 
 test:
