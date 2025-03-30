@@ -15,11 +15,6 @@ channel_targets:
 docker_image:
 - quay.io/condaforge/linux-anvil-x86_64:alma9
 lua:
-- 5.1.*
-luajit:
-- 'False'
+- lua *
 target_platform:
 - linux-64
-zip_keys:
-- - lua
-  - luajit
