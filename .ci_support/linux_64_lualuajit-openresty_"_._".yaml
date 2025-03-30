@@ -13,8 +13,8 @@ channel_sources:
 channel_targets:
 - conda-forge main
 docker_image:
-- quay.io/condaforge/linux-anvil-ppc64le:alma9
+- quay.io/condaforge/linux-anvil-x86_64:alma9
 lua:
-- '5.1'
+- luajit-openresty "*.*"
 target_platform:
-- linux-ppc64le
+- linux-64
