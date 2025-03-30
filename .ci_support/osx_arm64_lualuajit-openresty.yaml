@@ -15,7 +15,7 @@ channel_sources:
 channel_targets:
 - conda-forge main
 lua:
-- lua 5.4
+- luajit-openresty
 macos_machine:
 - arm64-apple-darwin20.0.0
 target_platform:

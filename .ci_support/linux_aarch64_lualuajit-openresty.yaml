@@ -15,6 +15,6 @@ channel_targets:
 docker_image:
 - quay.io/condaforge/linux-anvil-aarch64:alma9
 lua:
-- lua 5.4
+- luajit-openresty
 target_platform:
 - linux-aarch64
