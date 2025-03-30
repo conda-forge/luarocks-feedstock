@@ -1,4 +1,4 @@
 lua:
-  - lua 5.4
+  - lua
   - lua 5.1
-  - luajit-openresty "*.*"
+  - luajit-openresty
