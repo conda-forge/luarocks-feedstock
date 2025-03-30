@@ -8,23 +8,23 @@ jobs:
     vmImage: macOS-13
   strategy:
     matrix:
-      osx_64_lualua:
-        CONFIG: osx_64_lualua
+      osx_64_lua5.1._luajitFalse:
+        CONFIG: osx_64_lua5.1._luajitFalse
         UPLOAD_PACKAGES: 'True'
-      osx_64_lualua_5.1:
-        CONFIG: osx_64_lualua_5.1
+      osx_64_lua5.1._luajitTrue:
+        CONFIG: osx_64_lua5.1._luajitTrue
         UPLOAD_PACKAGES: 'True'
-      osx_64_lualuajit-openresty:
-        CONFIG: osx_64_lualuajit-openresty
+      osx_64_lua_._._luajitFalse:
+        CONFIG: osx_64_lua_._._luajitFalse
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_lualua:
-        CONFIG: osx_arm64_lualua
+      osx_arm64_lua5.1._luajitFalse:
+        CONFIG: osx_arm64_lua5.1._luajitFalse
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_lualua_5.1:
-        CONFIG: osx_arm64_lualua_5.1
+      osx_arm64_lua5.1._luajitTrue:
+        CONFIG: osx_arm64_lua5.1._luajitTrue
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_lualuajit-openresty:
-        CONFIG: osx_arm64_lualuajit-openresty
+      osx_arm64_lua_._._luajitFalse:
+        CONFIG: osx_arm64_lua_._._luajitFalse
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables: {}

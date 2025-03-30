@@ -15,8 +15,13 @@ channel_sources:
 channel_targets:
 - conda-forge main
 lua:
-- lua 5.1
+- 5.1.*
+luajit:
+- 'False'
 macos_machine:
 - arm64-apple-darwin20.0.0
 target_platform:
 - osx-arm64
+zip_keys:
+- - lua
+  - luajit

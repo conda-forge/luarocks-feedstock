@@ -8,40 +8,40 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
-      linux_64_lualua:
-        CONFIG: linux_64_lualua
+      linux_64_lua5.1._luajitFalse:
+        CONFIG: linux_64_lua5.1._luajitFalse
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_lualua_5.1:
-        CONFIG: linux_64_lualua_5.1
+      linux_64_lua5.1._luajitTrue:
+        CONFIG: linux_64_lua5.1._luajitTrue
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_64_lualuajit-openresty:
-        CONFIG: linux_64_lualuajit-openresty
+      linux_64_lua_._._luajitFalse:
+        CONFIG: linux_64_lua_._._luajitFalse
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_lualua:
-        CONFIG: linux_aarch64_lualua
+      linux_aarch64_lua5.1._luajitFalse:
+        CONFIG: linux_aarch64_lua5.1._luajitFalse
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
-      linux_aarch64_lualua_5.1:
-        CONFIG: linux_aarch64_lualua_5.1
+      linux_aarch64_lua5.1._luajitTrue:
+        CONFIG: linux_aarch64_lua5.1._luajitTrue
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
-      linux_aarch64_lualuajit-openresty:
-        CONFIG: linux_aarch64_lualuajit-openresty
+      linux_aarch64_lua_._._luajitFalse:
+        CONFIG: linux_aarch64_lua_._._luajitFalse
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
-      linux_ppc64le_lualua:
-        CONFIG: linux_ppc64le_lualua
+      linux_ppc64le_lua5.1._luajitFalse:
+        CONFIG: linux_ppc64le_lua5.1._luajitFalse
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
-      linux_ppc64le_lualua_5.1:
-        CONFIG: linux_ppc64le_lualua_5.1
+      linux_ppc64le_lua5.1._luajitTrue:
+        CONFIG: linux_ppc64le_lua5.1._luajitTrue
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
-      linux_ppc64le_lualuajit-openresty:
-        CONFIG: linux_ppc64le_lualuajit-openresty
+      linux_ppc64le_lua_._._luajitFalse:
+        CONFIG: linux_ppc64le_lua_._._luajitFalse
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
   timeoutInMinutes: 360

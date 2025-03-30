@@ -37,108 +37,108 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_lualua</td>
+              <td>linux_64_lua5.1._luajitFalse</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_lualua" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_lua5.1._luajitFalse" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_lualua_5.1</td>
+              <td>linux_64_lua5.1._luajitTrue</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_lualua_5.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_lua5.1._luajitTrue" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_lualuajit-openresty</td>
+              <td>linux_64_lua_._._luajitFalse</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_lualuajit-openresty" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_lua_._._luajitFalse" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_lualua</td>
+              <td>linux_aarch64_lua5.1._luajitFalse</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_lualua" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_lua5.1._luajitFalse" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_lualua_5.1</td>
+              <td>linux_aarch64_lua5.1._luajitTrue</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_lualua_5.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_lua5.1._luajitTrue" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_lualuajit-openresty</td>
+              <td>linux_aarch64_lua_._._luajitFalse</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_lualuajit-openresty" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_lua_._._luajitFalse" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_lualua</td>
+              <td>linux_ppc64le_lua5.1._luajitFalse</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_lualua" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_lua5.1._luajitFalse" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_lualua_5.1</td>
+              <td>linux_ppc64le_lua5.1._luajitTrue</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_lualua_5.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_lua5.1._luajitTrue" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_lualuajit-openresty</td>
+              <td>linux_ppc64le_lua_._._luajitFalse</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_lualuajit-openresty" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_lua_._._luajitFalse" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_lualua</td>
+              <td>osx_64_lua5.1._luajitFalse</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_lualua" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_lua5.1._luajitFalse" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_lualua_5.1</td>
+              <td>osx_64_lua5.1._luajitTrue</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_lualua_5.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_lua5.1._luajitTrue" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_lualuajit-openresty</td>
+              <td>osx_64_lua_._._luajitFalse</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_lualuajit-openresty" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_lua_._._luajitFalse" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_lualua</td>
+              <td>osx_arm64_lua5.1._luajitFalse</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_lualua" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_lua5.1._luajitFalse" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_lualua_5.1</td>
+              <td>osx_arm64_lua5.1._luajitTrue</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_lualua_5.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_lua5.1._luajitTrue" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_lualuajit-openresty</td>
+              <td>osx_arm64_lua_._._luajitFalse</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_lualuajit-openresty" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_lua_._._luajitFalse" alt="variant">
                 </a>
               </td>
             </tr>
