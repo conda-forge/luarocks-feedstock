@@ -8,36 +8,36 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
-      linux_64_lualua_"_._":
-        CONFIG: linux_64_lualua_"_._"
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_lualua_5.1:
         CONFIG: linux_64_lualua_5.1
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+      linux_64_lualua_5.4:
+        CONFIG: linux_64_lualua_5.4
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_lualuajit-openresty_"_._":
         CONFIG: linux_64_lualuajit-openresty_"_._"
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-      linux_aarch64_lualua_"_._":
-        CONFIG: linux_aarch64_lualua_"_._"
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
       linux_aarch64_lualua_5.1:
         CONFIG: linux_aarch64_lualua_5.1
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
+      linux_aarch64_lualua_5.4:
+        CONFIG: linux_aarch64_lualua_5.4
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
       linux_aarch64_lualuajit-openresty_"_._":
         CONFIG: linux_aarch64_lualuajit-openresty_"_._"
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
-      linux_ppc64le_lualua_"_._":
-        CONFIG: linux_ppc64le_lualua_"_._"
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
       linux_ppc64le_lualua_5.1:
         CONFIG: linux_ppc64le_lualua_5.1
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
+      linux_ppc64le_lualua_5.4:
+        CONFIG: linux_ppc64le_lualua_5.4
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
       linux_ppc64le_lualuajit-openresty_"_._":
