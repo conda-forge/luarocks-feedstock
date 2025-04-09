@@ -1,0 +1,4 @@
+variant:
+  - latest
+  - lua51
+  - luajit
