@@ -23,14 +23,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://app.travis-ci.com/conda-forge/luarocks-feedstock">
-        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/luarocks-feedstock/main.svg?label=Linux">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
@@ -44,38 +37,101 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64</td>
+              <td>linux_64_variantlatest</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_variantlatest" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64</td>
+              <td>linux_64_variantlua51</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_variantlua51" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le</td>
+              <td>linux_64_variantluajit</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_variantluajit" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64</td>
+              <td>linux_aarch64_variantlatest</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_variantlatest" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64</td>
+              <td>linux_aarch64_variantlua51</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_variantlua51" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_variantluajit</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_variantluajit" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_variantlatest</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_variantlatest" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_variantlua51</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_variantlua51" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_variantlatest</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_variantlatest" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_variantlua51</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_variantlua51" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_variantluajit</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_variantluajit" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_variantlatest</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_variantlatest" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_variantlua51</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_variantlua51" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_variantluajit</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4828&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/luarocks-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_variantluajit" alt="variant">
                 </a>
               </td>
             </tr>
