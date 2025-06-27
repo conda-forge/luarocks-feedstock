@@ -1,6 +1,6 @@
 {% set name = "luarocks" %}
-{% set version = "3.12.1" %}
-{% set sha256 = "f56b85a2a7a481f0321845807b79a05237860b04e4a9d186da632770029b3290" %}
+{% set version = "3.12.2" %}
+{% set sha256 = "b0e0c85205841ddd7be485f53d6125766d18a81d226588d2366931e9a1484492" %}
 {% set build = 0 %}
 
 # prioritize latest variant via build number
