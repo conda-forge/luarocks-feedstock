@@ -16,6 +16,8 @@ source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: http://luarocks.github.io/luarocks/releases/luarocks-{{ version }}.tar.gz
   sha256: {{ sha256 }}
+  patches:
+    - fix-double-tag-rockspec.patch
 
 build:
   number: {{ build }}
